@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>three.js webgl - FBX loader</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="../css/main.css" rel="stylesheet" href="../css/main.css">
+
+    <!-- Agrega TWEEN.js desde CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+</head>
+
+<body>
+    <div id="info">
+        <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - FBXLoader<br />
+        Character and animation from <a href="https://www.mixamo.com/" target="_blank" rel="noopener">Mixamo</a>
+    </div>
+
+    <!-- Import map de Three.js -->
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "../build/three.module.js",
+            "three/addons/": "../jsm/"
+          }
+        }
+        </script>
+        
+
+    <!-- Tu script principal -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
